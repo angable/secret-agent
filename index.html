@@ -3,25 +3,74 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Untitled Document</title>
+    <title>Secret Agent Supply, Inc.</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 
 <body>
+    <!-- Header Section -->
+    <header class="flex-container" style="background-color: black;">
+        <div class="logo"><img src="resources/images/logo.png" alt="binoculars logo"> SECRET AGENT SUPPLY INC.</div>
+    </header>
 
-    <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        <!-- JS on the page -->
+    <!-- Main Content -->
+    <main>
 
-    </script>
+        <!-- Landing Section -->
+        <section class="landing-section flex-container">
+            <div class="new-arrival">
+                <p>NEW ARRIVAL</p>
+                <h2>SPORT BIKE AND MOTOCYCLES</h2>
+            </div>
+        </section>
+
+        <!-- Shop Section -->
+        <section class="shopping-section">
+            <nav class="flex-container">
+                <a href="#">Eyewear</a>
+                <a href="#">Apparel</a>
+                <a href="#">Gadgets</a>
+                <a href="#">Vehicles</a>
+                <a href="#">Classes</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <div class="flex-container">
+                <div class="product-card">
+                    <img src="resources/images/pen.png">
+                    <p>Exploding Pen</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/images/watch.png">
+                    <p>Cellular Watch</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/images/glasses.png">
+                    <p>Thermal Glasses</p>
+                </div>
+            </div>
+
+            <div class="flex-container">
+                <div class="location-info">
+                    Location -47.346436, 84.32354
+                </div>
+                <div class="location-info">
+                    Hours 0800 - 1800
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Copyright Secret Agent Supply Inc.</p>
+    </footer>
+
 </body>
 
 </html>
